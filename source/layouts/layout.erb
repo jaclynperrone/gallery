@@ -15,7 +15,9 @@
   
   <body class="<%= page_classes %>">
     <%= partial "header" %>
-    <%= yield %>
+    <div class="wrapper">
+      <%= yield %>
+    </div>
     <%= partial "footer" %>
   </body>
 </html>
