@@ -1,0 +1,56 @@
+---
+title: Jaclyn Perrone
+---
+
+.content-container
+	.half-col
+		h2 A little about me...
+		p While perched up in my Brooklyn loft amongst the countless abandoned factories and never-ending hard gray landscape, I like to imagine a city where the trees grow as tall as skyscrapers and run as deep as the subway tunnels. I have been living in New York City for the past 10 years, where I spent the first half studying Visual Arts at Fordham University Lincoln Center and the second half working as a web designer and developer in Manhattan.
+		p No matter where I am or what I am doing, art has been an underlying and defining force throughout my life. While I have worked with many subjects and media, of late I have been creating surrealistic cityscapes using pen and ink, capturing the creepy and whimsical quality of the city streets I walk along everyday.
+		p If you would like to commission a painting or drawing, don't hesitate to use the contact form!
+	.half-col
+		h2 and now tell me about you...
+		form#contact-form accept-charset="UTF-8" action="http://www.emailmeform.com/fid.php?formid=683483" enctype="multipart/form-data" method="post" style=("margin: 20px 0 0 0;") 
+			#mainmsg style=""
+			label
+				| *Your Name
+				br
+				input name="FieldData0" size="30" type="text"
+			label
+				| *Your Email Address
+				br
+				input name="FieldData1" size="30" type="text"
+			label
+				| *Message
+				br
+				textarea name="FieldData2"
+			table#captcha_table cellpadding="5" cellspacing="0" width="100%" 
+				tr#captcha_table_header_tr
+					td#captcha_table_header_td.label colspan="2" Image Verification
+				tr
+					td.field valign="top"
+					td#captcha_table_img_td.captcha style=("padding: 2px;") width="10" 
+						img#captcha alt="captcha" src="http://www.emailmeform.com/turing.php"
+					td style=("padding: 0; width: 30px;") Please enter the text from the image:
+					br
+					input maxlength="100" name="Turing" size="10" style=("margin: 0;") type="text" value=""
+					br
+					a href="#" onclick=(" document.getElementById('captcha').src\n\t= document.getElementById('captcha').src + '?' + (new Date()).getMilliseconds()") Refresh Image
+					a href="http://www.emailmeform.com/?v=turing&pt=popup" onclick="window.open('http://www.emailmeform.com/?v=turing&pt=popup','_blank','width=400, height=500, left=' +\n\t(screen.width-450) + ', top=100');return false;" 
+						| What's This?
+				tr
+					td
+					td align="right" 
+						input maxlength="100" name="hida2" size="3" style=("display: none;") type="text" value=""
+						input.btn name="Submit" type="submit" value="Submit"
+				tr
+					td align="center" colspan="2"
+		div style=("display: none;") 
+			| Powered by
+			span style=("position:\nrelative; padding-left: 3px; bottom: -5px;") 
+				img src="http://www.emailmeform.com/images/footer-logo.png"
+			a href="http://www.emailmeform.com" style="text-decoration:none;"  HTML Forms
+		div
+			#js_errorbox_signup
+
+			

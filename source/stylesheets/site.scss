@@ -5,7 +5,7 @@
 $color-text-dark: #111;
 
 body {
-  font: 1em/1.6 'open_sansregular', arial, sans-serif;
+  font: 1em/1.6 'open_sanslight', arial, sans-serif;
   background: url('../images/body-bg.jpg');
   color: $color-text-dark;
   padding-top: 0.5em;
@@ -15,11 +15,19 @@ a {
   color: $color-text-dark;
 }
 
+p {
+  padding-right: 3em;
+}
 header {
   border-top: $color-text-dark 10px solid;
 
 }
 
+h2 {
+  font-size: 1em;
+  font-family: 'open_sanssemibold';
+  text-transform: uppercase;
+}
 nav {
   text-transform: uppercase;
   display: inline-block;
@@ -34,7 +42,6 @@ nav {
     margin-right: 1.5em;
   }
   a {
-    font-family: 'open_sanslight';
     text-decoration: none;
 
     &:hover {
@@ -72,6 +79,10 @@ footer {
   }
 }
 
+.content-container {
+  @include outer-container;
+}
+
 .hero-container {
   @extend .img-container; 
   img {
@@ -79,4 +90,14 @@ footer {
     -moz-box-shadow: 0 0 8px #888;
     -webkit-box-shadow: 0 0 8px #888;
   }
+}
+
+.half-col {
+  @include span-columns(6);
+}
+
+/*** ABOUT ***/
+
+#contact-form {
+  margin: 1.25em 0 0 0;
 }
