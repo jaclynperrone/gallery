@@ -10,42 +10,36 @@ title: Jaclyn Perrone
 		p If you would like to commission a painting or drawing, don't hesitate to use the contact form!
 	.half-col
 		h2 and now tell me about you...
-		form#contact-form accept-charset="UTF-8" action="http://www.emailmeform.com/fid.php?formid=683483" enctype="multipart/form-data" method="post" style=("margin: 20px 0 0 0;") 
+		form#contact-form accept-charset="UTF-8" action="http://www.emailmeform.com/fid.php?formid=683483" enctype="multipart/form-data" method="post"
 			#mainmsg style=""
-			label
-				| *Your Name
-				br
+			label.contact-label
+				| Your Name
 				input name="FieldData0" size="30" type="text"
-			label
-				| *Your Email Address
-				br
+			label.contact-label
+				| Your Email Address
 				input name="FieldData1" size="30" type="text"
-			label
-				| *Message
-				br
-				textarea name="FieldData2"
-			table#captcha_table cellpadding="5" cellspacing="0" width="100%" 
-				tr#captcha_table_header_tr
-					td#captcha_table_header_td.label colspan="2" Image Verification
-				tr
-					td.field valign="top"
-					td#captcha_table_img_td.captcha style=("padding: 2px;") width="10" 
+			label.contact-label
+				| Your Message
+				textarea.contact-message name="FieldData2"
+			label.captcha-label Please enter the text from the image:
+			table#captcha_table width="100%" 
+				/ tr#captcha_table_header_tr
+				/ 	td#captcha_table_header_td.label colspan="2" Image Verification
+				tr	
+					td 
+						input.captcha-input maxlength="100" name="Turing" size="10" type="text" value=""
+					td#captcha_table_img_td.captcha width="10" 
 						img#captcha alt="captcha" src="http://www.emailmeform.com/turing.php"
-					td style=("padding: 0; width: 30px;") Please enter the text from the image:
-					br
-					input maxlength="100" name="Turing" size="10" style=("margin: 0;") type="text" value=""
-					br
-					a href="#" onclick=(" document.getElementById('captcha').src\n\t= document.getElementById('captcha').src + '?' + (new Date()).getMilliseconds()") Refresh Image
-					a href="http://www.emailmeform.com/?v=turing&pt=popup" onclick="window.open('http://www.emailmeform.com/?v=turing&pt=popup','_blank','width=400, height=500, left=' +\n\t(screen.width-450) + ', top=100');return false;" 
-						| What's This?
+					td.refresh-captcha
+						a.captcha-link href="#" onclick=(" document.getElementById('captcha').src\n\t= document.getElementById('captcha').src + '?' + (new Date()).getMilliseconds()") Refresh Image
 				tr
-					td
-					td align="right" 
+					td colspan="3"
 						input maxlength="100" name="hida2" size="3" style=("display: none;") type="text" value=""
-						input.btn name="Submit" type="submit" value="Submit"
-				tr
-					td align="center" colspan="2"
-		div style=("display: none;") 
+						input.btn.contact-submit name="Submit" type="submit" value="Send My Message"
+
+				/ tr
+				/ 	td align="center" colspan="2"
+		.credit
 			| Powered by
 			span style=("position:\nrelative; padding-left: 3px; bottom: -5px;") 
 				img src="http://www.emailmeform.com/images/footer-logo.png"
