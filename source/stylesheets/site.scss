@@ -125,13 +125,20 @@ footer {
 }
 
 .captcha-link {
+  @include transition(all 0.1s $ease-in-circ);
+  opacity: 0.9;
   font-size: 0.75em;
   text-indent: -99999px;
   background: url('../images/refresh.png') no-repeat;
   width: 18px;
-  height: 19px;
+  height: 18px;
   display: block;
   float: right;
+  &:hover {
+    opacity: 1;
+    @include transform(rotate(15deg));
+  }
+
 }
 
 .contact-label {

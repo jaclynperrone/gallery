@@ -23,8 +23,6 @@ title: Jaclyn Perrone
 				textarea.contact-message name="FieldData2"
 			label.captcha-label Please enter the text from the image:
 			table#captcha_table width="100%" 
-				/ tr#captcha_table_header_tr
-				/ 	td#captcha_table_header_td.label colspan="2" Image Verification
 				tr	
 					td 
 						input.captcha-input maxlength="100" name="Turing" size="10" type="text" value=""
@@ -33,18 +31,15 @@ title: Jaclyn Perrone
 					td.refresh-captcha
 						a.captcha-link href="#" onclick=(" document.getElementById('captcha').src\n\t= document.getElementById('captcha').src + '?' + (new Date()).getMilliseconds()") Refresh Image
 				tr
-					td colspan="3"
+					td
+						#js_errorbox_signup
+					td colspan="2"
 						input maxlength="100" name="hida2" size="3" style=("display: none;") type="text" value=""
-						input.btn.contact-submit name="Submit" type="submit" value="Send My Message"
-
-				/ tr
-				/ 	td align="center" colspan="2"
+						input.btn.contact-submit name="Submit" type="submit" value="Send Message"
 		.credit
 			| Powered by
 			span style=("position:\nrelative; padding-left: 3px; bottom: -5px;") 
 				img src="http://www.emailmeform.com/images/footer-logo.png"
 			a href="http://www.emailmeform.com" style="text-decoration:none;"  HTML Forms
-		div
-			#js_errorbox_signup
 
 			
