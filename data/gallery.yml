@@ -1,7 +1,162 @@
 images:
   - 1:
-    url: foo.jpg
-    title: Foo
+    url: various-works/12.jpg
+    title: Rolling Clouds
   - 2:
-    url: bar.jpg
-    title: Bar
+    url: sketches/17.jpg
+    title: Williamsburg I
+  - 3:
+    url: sketches/8.jpg
+    title: South Grand Street
+  - 4:
+    url: various-works/1.jpg
+    title: Clouty Album Art I
+  - 5:
+    url: sketches/28.jpg
+    title: Uprooted VII
+  - 6:
+    url: various-works/13.jpg
+    title: Brooklyn Rooftops
+  - 7:
+    url: various-works/9.jpg
+    title: Central Park
+  - 8:
+    url: various-works/14.jpg
+    title: Soho
+  - 9:
+    url: sketches/19.jpg
+    title: Upper West Side
+  - 10:
+    url: various-works/15.jpg
+    title: Wyoming Drive
+  - 11:
+    url: sketches/18.jpg
+    title: Midtown Village
+  - 12:
+    url: various-works/4.jpg
+    title: Kaia
+  - 13:
+    url: sketches/22.jpg
+    title: Uprooted I
+  - 14:
+    url: the-inner-city/5.jpg
+    title: Spring Street Detail II
+  - 15:
+    url: sketches/26.jpg
+    title: Uprooted V
+  - 16:
+    url: the-inner-city/8.jpg
+    title: White Street
+  - 17:
+    url: various-works/3.jpg
+    title: Broadway
+  - 18:
+    url: various-works/6.jpg
+    title: Lake Sunset
+  - 19:
+    url: sketches/23.jpg
+    title: Uprooted II
+  - 20:
+    url: sketches/24.jpg
+    title: Uprooted III
+  - 21:
+    url: sketches/5.jpg
+    title: Grand Street
+  - 22:
+    url: various-works/2.jpg
+    title: Clouty Album Art II
+  - 23:
+    url: sketches/1.jpg
+    title: The Man Who Stole My Tree
+  - 24:
+    url: sketches/2.jpg
+    title: The Great Lawn Tree
+  - 25:
+    url: sketches/20.jpg
+    title: Greenpoint I
+  - 26:
+    url: sketches/21.jpg
+    title: Williamsburg II
+  - 27:
+    url: various-works/5.jpg
+    title: Katie
+  - 28:
+    url: sketches/27.jpg
+    title: Uprooted VI
+  - 29:
+    url: various-works/10.jpg
+    title: Spanish Harlem
+  - 30:
+    url: various-works/11.jpg
+    title: Subway
+  - 31:
+    url: sketches/9.jpg
+    title: Red West Village II
+  - 32:
+    url: the-inner-city/1.jpg
+    title: Avenue of the Americas II
+  - 33:
+    url: sketches/11.jpg
+    title: Cafe Doma V
+  - 34:
+    url: sketches/12.jpg
+    title: Snow on Metropolitan and Lorimer
+  - 35:
+    url: the-inner-city/3.jpg
+    title: First Avenue
+  - 36:
+    url: sketches/13.jpg
+    title: Ainslie in Snow
+  - 37:
+    url: sketches/14.jpg
+    title: Leonard Street
+  - 38:
+    url: sketches/25.jpg
+    title: Uprooted IV
+  - 39:
+    url: sketches/15.jpg
+    title: Hooper Street
+  - 40:
+    url: sketches/16.jpg
+    title: Untitled I
+  - 41:
+    url: sketches/10.jpg
+    title: Hands Study I
+  - 42:
+    url: the-inner-city/2.jpg
+    title: Chelsea I
+  - 43:
+    url: sketches/6.jpg
+    title: Red West Village
+  - 44:
+    url: the-inner-city/4.jpg
+    title: Madison Avenue
+  - 45:
+    url: sketches/29.jpg
+    title: Old Man on a Greyhound
+  - 46:
+    url: sketches/7.jpg
+    title: Guernsey Street Study
+  - 47:
+    url: the-inner-city/6.jpg
+    title: Spring Street
+  - 48:
+    url: the-inner-city/7.jpg
+    title: Walker Street
+  - 49:
+    url: sketches/3.jpg
+    title: Cafe Doma I
+  - 50:
+    url: sketches/4.jpg
+    title: JFK III
+  - 51:
+    url: various-works/7.jpg
+    title: Sunset Mural
+  - 52:
+    url: various-works/8.jpg
+    title: Herald Square
+
+
+
+
+
