@@ -1,0 +1,7 @@
+images:
+  - 1:
+    url: foo.jpg
+    title: Foo
+  - 2:
+    url: bar.jpg
+    title: Bar

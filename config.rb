@@ -1,3 +1,5 @@
+require 'middleman-thumbnailer'
+
 ###
 # Compass
 ###
@@ -52,6 +54,13 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+activate :thumbnailer, 
+  :dimensions => {
+    :small => '200x',
+    :medium => '400x300'
+  },
+  :namespace_directory => %w(gallery)
 
 # Build-specific configuration
 configure :build do
