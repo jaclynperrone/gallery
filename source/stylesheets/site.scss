@@ -3,7 +3,8 @@
 @import "fonts.css";
 
 $color-text-dark: #111;
-$color-btn: #83D0E4;
+$color-text-light: #eee;
+$color-btn: #111;
 
 $radius: 2px;
 
@@ -32,7 +33,7 @@ header {
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 0.875em;
   font-family: 'open_sanssemibold';
   text-transform: uppercase;
 }
@@ -40,6 +41,7 @@ h2 {
 nav {
   text-transform: uppercase;
   display: inline-block;
+  font-size: 0.875em;
 
   ul {
     list-style: none;
@@ -50,6 +52,10 @@ nav {
     display: inline-block;
     margin-right: 1.5em;
   }
+}
+
+.active {
+  font-family: 'open_sanssemibold';
 }
 
 
@@ -156,8 +162,13 @@ footer {
 %button {
   @include transition(background-color, 0.1s);
   background-color: $color-btn;
+  color: $color-text-light;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  padding: 0.75em 0;
+  border-radius: $radius;
   &:hover {
-    background-color: darken($color-btn, 5%);
+    background-color: lighten($color-btn, 10%);
   }
 }
 
