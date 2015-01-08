@@ -10,36 +10,46 @@ title: Jaclyn Perrone
 		p If you would like to commission a painting or drawing, don't hesitate to use the contact form!
 	.half-col
 		h2 and now tell me about you...
-		form#contact-form accept-charset="UTF-8" action="http://www.emailmeform.com/fid.php?formid=683483" enctype="multipart/form-data" method="post"
-			#mainmsg style=""
-			label.contact-label
-				| Your Name
-				input name="FieldData0" size="30" type="text"
-			label.contact-label
-				| Your Email Address
-				input name="FieldData1" size="30" type="text"
-			label.contact-label
-				| Your Message
-				textarea.contact-message name="FieldData2"
-			label.captcha-label Please enter the text from the image:
-			table#captcha_table width="100%" 
-				tr	
-					td 
-						input.captcha-input maxlength="100" name="Turing" size="10" type="text" value=""
-					td#captcha_table_img_td.captcha width="10" 
-						img#captcha alt="captcha" src="http://www.emailmeform.com/turing.php"
-					td.refresh-captcha
-						a.captcha-link href="#" onclick=(" document.getElementById('captcha').src\n\t= document.getElementById('captcha').src + '?' + (new Date()).getMilliseconds()") Refresh Image
-				tr
-					td
-						#js_errorbox_signup
-					td colspan="2"
-						input maxlength="100" name="hida2" size="3" style=("display: none;") type="text" value=""
-						input.btn.contact-submit name="Submit" type="submit" value="Send Message"
-		.credit
-			| Powered by
-			span style=("position:\nrelative; padding-left: 3px; bottom: -5px;") 
-				img src="http://www.emailmeform.com/images/footer-logo.png"
-			a href="http://www.emailmeform.com" style="text-decoration:none;"  HTML Forms
+		form#ss-form action="https://docs.google.com/forms/d/1YN2DC3lpHfn39YklxIPzOxcxJ-ZLhEbjNncnAUCt0-A/formResponse" method="POST" onsubmit="" target="_self" 
+		  ol.ss-question-list role="list" style=("padding-left: 0") 
+		  .ss-form-question.errorbox-good role="listitem" 
+		    .ss-item.ss-item-required.ss-text dir="ltr" 
+		      .ss-form-entry
+		        label.ss-q-item-label for="entry_375630742"
+		        .ss-q-title.contact-label
+		          | Your name
+		          label aria-label=("(Required field)") for="itemView.getDomIdToLabel()" 
+		          span.ss-required-asterisk aria-hidden="true"
+		        .ss-q-help.ss-secondary-text dir="ltr" 
+		        input#entry_375630742.ss-q-short aria-label=("Your name  ") aria-required="true" dir="auto" name="entry.375630742" required="" title="" type="text" value=""
+		  .ss-form-question.errorbox-good role="listitem" 
+		    .ss-item.ss-item-required.ss-text dir="ltr" 
+		      .ss-form-entry
+		        label.ss-q-item-label for="entry_651828464"
+		        .ss-q-title.contact-label
+		          | Your email
+		          label aria-label=("(Required field)") for="itemView.getDomIdToLabel()" 
+		          span.ss-required-asterisk aria-hidden="true"
+		        .ss-q-help.ss-secondary-text dir="ltr" 
+		        input#entry_651828464.ss-q-short aria-label=("Your email  ") aria-required="true" dir="auto" name="entry.651828464" required="" title="" type="text" value=""
+		  .ss-form-question.errorbox-good role="listitem" 
+		    .ss-item.ss-item-required.ss-paragraph-text dir="ltr" 
+		      .ss-form-entry
+		        label.ss-q-item-label for="entry_25584804"
+		        .ss-q-title.contact-label
+		          | Your message
+		          label aria-label=("(Required field)") for="itemView.getDomIdToLabel()" 
+		          span.ss-required-asterisk aria-hidden="true"
+		        .ss-q-help.ss-secondary-text dir="ltr" 
+		        textarea.contact-message#entry_25584804.ss-q-long aria-label=("Your message  ") aria-required="true" cols="0" dir="auto" name="entry.25584804" required="" rows="8" 
+		  input name="draftResponse" type="hidden" value="[,,&quot;-3912175562809238739&quot;]\n"
+		  input name="pageHistory" type="hidden" value="0"
+		  input name="fbzx" type="hidden" value="-3912175562809238739"
+		  .ss-item.ss-navigate
+		    table#navigation-table
+		      tbody
+		        tr
+		          td#navigation-buttons.ss-form-entry.goog-inline-block dir="ltr" 
+		            input.contact-submit#ss-submit.jfk-button.jfk-button-action name="submit" type="submit" value="Send Message"
 
 			
