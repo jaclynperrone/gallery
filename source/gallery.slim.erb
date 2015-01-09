@@ -3,12 +3,11 @@ title: Gallery
 gallery_tab: active
 ---
 
-h1 = current_page.data.title
-
-#galleria style="height:432px;"
+.content-container
+  #galleria
     - data.gallery.images.each do |i|
       a href="images/gallery/#{i.url}"
-        img data-title=i.title src=thumbnail_url("images/gallery/#{i.url}", :small)
+        img.gallery-thumbnail data-title=i.title src=thumbnail_url("images/gallery/#{i.url}", :small)
 
 
 javascript:

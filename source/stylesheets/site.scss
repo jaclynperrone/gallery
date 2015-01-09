@@ -198,3 +198,19 @@ footer {
   font-size: 2em;
   margin-top: 1.3em;
 }
+
+/*** Gallery ***/
+
+#galleria {
+  height: 1500px;
+}
+.galleria-thumbnails .galleria-image {
+  width: 201px;
+  @include media($mobile) {
+    width: 125px;
+  }
+}
+
+.galleria-container {
+  background-color: transparent;
+}
