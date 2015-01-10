@@ -104,6 +104,19 @@ footer {
   }
 }
 
+.mobile-footer {
+  display: none;
+  text-align: center;
+  margin-top: 2em;
+
+  nav {
+    margin-bottom: 0;
+  }
+  @include media($mobile) {
+    display: block;
+  }
+}
+
 
 
 .three-fourth-col {
