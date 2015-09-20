@@ -1,5 +1,6 @@
 test:
-  override: echo "No tests."
+  override:
+    - echo "No tests."
 
 deployment:
   production:
