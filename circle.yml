@@ -4,5 +4,5 @@ test:
 deployment:
   production:
     branch: master
-		commands:
-		  - s3_website push
+    commands:
+      - s3_website push
