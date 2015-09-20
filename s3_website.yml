@@ -5,7 +5,7 @@ s3_bucket: www.jaclynperrone.com
 # Below are examples of all the available configurations.
 # See README for more detailed info on each of them.
 
-# site: path-to-your-website
+site: build
 
 # index_document: index.html
 # error_document: error.html
@@ -23,7 +23,7 @@ s3_bucket: www.jaclynperrone.com
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
 # s3_endpoint: ap-northeast-1
 
-# ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
+ignore_on_server: design
 
 # exclude_from_upload:
 #   - those_folders_of_stuff

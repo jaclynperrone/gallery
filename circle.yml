@@ -1,0 +1,8 @@
+test:
+  override: echo "No tests."
+
+deployment:
+  production:
+    branch: master
+		commands:
+		  - s3_website push
