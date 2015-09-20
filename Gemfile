@@ -19,3 +19,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 gem "slim"
 
 gem 'middleman-thumbnailer', :git => 'https://github.com/nhemsley/middleman-thumbnailer.git'
+
+gem 's3_website'
