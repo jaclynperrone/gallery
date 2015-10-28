@@ -194,7 +194,6 @@ body {
   }
 }
 
-
 .one-fourth-col {
   @include span-columns(3);
   @include media($mobile) {
@@ -693,4 +692,41 @@ button.breakpoint-button {
       transition-delay: $speed-medium;
     }
   }
+}
+
+/* ========== [ Contact Form ] ============= */
+
+.contact-form {
+  @extend .half-col;
+  font-size: 1.25em;
+
+  &.thank-you {
+    padding-bottom: 12em;
+    .back {
+      font-size: 1rem;
+    }
+  }
+}
+
+.ss-q-short, .ss-q-long {
+  width: 100%;
+  border: 1px solid  #ccc;
+  padding: 0.5em;
+  background-color: #ccc;
+}
+
+.ss-q-long {
+  height: 6em;
+}
+
+.ss-form-question {
+  margin-bottom: 1em;
+}
+
+.ss-question-list {
+  margin-top: 0;
+}
+
+.contact-submit {
+  @extend %button;
 }
