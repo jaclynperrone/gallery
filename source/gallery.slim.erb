@@ -1,13 +1,13 @@
 ---
-title: Gallery
+title: Jaclyn Perrone
 gallery_tab: active
 ---
 
 .content-container
   #galleria
     - data.gallery.images.each do |i|
-      a href="images/gallery/#{i.url}"
-        img.gallery-thumbnail data-title=i.title src=thumbnail_url("images/gallery/#{i.url}", :small)
+      a href="images/gallery/artwork/#{i.url}"
+        img.gallery-thumbnail data-title=i.title src=thumbnail_url("images/gallery/artwork/#{i.url}", :small)
 
   .mobile-footer
     nav
@@ -18,7 +18,6 @@ gallery_tab: active
           a href="http://squidinks.deviantart.com/" target="_blank"  prints
         li 
           a href="about.html" class=current_page.data.about_tab about
-
 
 javascript:
   Galleria.loadTheme('galleria/themes/folio/galleria.folio.min.js');

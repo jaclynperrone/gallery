@@ -22,9 +22,9 @@ require 'middleman-thumbnailer'
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+with_layout :design do
+  page "/design/*"
+end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -60,7 +60,7 @@ activate :thumbnailer,
     :small => '200x',
     :medium => '400x300'
   },
-  :namespace_directory => %w(gallery)
+  :namespace_directory => %w(gallery/artwork)
 
 # Build-specific configuration
 configure :build do
@@ -74,7 +74,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
