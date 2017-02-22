@@ -153,7 +153,7 @@ footer {
 }
 
 .hero-container {
-  @extend .img-container; 
+  @extend .img-container;
   img {
     box-shadow: 0 0 8px #888;
     -moz-box-shadow: 0 0 8px #888;
@@ -214,16 +214,8 @@ footer {
 
 /*** Gallery ***/
 
-#galleria {
-  height: 1500px;
-}
-.galleria-thumbnails .galleria-image {
-  width: 201px;
-  @include media($mobile) {
-    width: 125px;
-  }
-}
-
-.galleria-container {
-  background-color: transparent;
+.gallery-thumbnail {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
 }
